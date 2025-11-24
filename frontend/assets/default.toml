@@ -1,0 +1,133 @@
+layer = [
+    [
+        [
+
+            [
+                # { top_legend = 'Tab', scan_code = 15 },
+                { top_legend = 'Q', scan_code = 'KC_Q' },
+                { top_legend = 'W', scan_code = 'KC_W' },
+                { top_legend = 'E', scan_code = 'KC_E' },
+                { top_legend = 'R', scan_code = 'KC_R' },
+                { top_legend = 'T', scan_code = 'KC_T' },
+            ],
+            [
+                # { top_legend = 'CL', scan_code = 58 },
+                { top_legend = 'A', scan_code = 'KC_A' },
+                { top_legend = 'S', scan_code = 'KC_S' },
+                { top_legend = 'D', scan_code = 'KC_D' },
+                { top_legend = 'F', scan_code = 'KC_F' },
+                { top_legend = 'G', scan_code = 'KC_G' },
+            ],
+
+            [
+                { top_legend = 'Z', scan_code = 'KC_Z' },
+                { top_legend = 'X', scan_code = 'KC_X' },
+                { top_legend = 'C', scan_code = 'KC_C' },
+                { top_legend = 'V', scan_code = 'KC_V' },
+                { top_legend = 'B', scan_code = 'KC_B' },
+            ],
+            [
+                { top_legend = 'SHF', scan_code = 'KC_LEFTSHIFT' },
+                { top_legend = '<C>', scan_code = 'KC_LEFTCTRL' },
+                { top_legend = '<M>', scan_code = 'KC_LEFTMETA' },
+                { top_legend = '<A>', scan_code = 'KC_LEFTALT' },
+                { top_legend = '< >', scan_code = 'KC_SPACE' },
+            ],
+        ],
+        [
+            [
+                { top_legend = 'Y', scan_code = 'KC_Y' },
+                { top_legend = 'U', scan_code = 'KC_U' },
+                { top_legend = 'I', scan_code = 'KC_I' },
+                { top_legend = 'O', scan_code = 'KC_O' },
+                { top_legend = 'P', scan_code = 'KC_P' },
+            ],
+            [
+                { top_legend = 'H', scan_code = 'KC_H' },
+                { top_legend = 'J', scan_code = 'KC_J' },
+                { top_legend = 'K', scan_code = 'KC_K' },
+                { top_legend = 'L', scan_code = 'KC_L' },
+                { top_legend = ':', bottom_legend = ';', scan_code = 'KC_SEMICOLON' },
+            ],
+            [
+                { top_legend = 'N', scan_code = 'KC_N' },
+                { top_legend = 'M', scan_code = 'KC_M' },
+                { top_legend = '<', bottom_legend = ',', scan_code = 'KC_COMMA' },
+                { top_legend = '>', bottom_legend = '.', scan_code = 'KC_DOT' },
+                { top_legend = '?', bottom_legend = '/', scan_code = 'KC_SLASH' },
+            ],
+            [
+                # { top_legend = '{', bottom_legend = '[', scan_code = 26 },
+                # { top_legend = '}', bottom_legend = ']', scan_code = 28 },
+                # { top_legend = '|', bottom_legend = '\', scan_code = 43 },
+                { top_legend = 'LNO', scan_code = { LAYER = 1}},
+                { top_legend = 'XXX', scan_code = 'CLOSE'},
+                { top_legend = 'TB', scan_code = 'KC_TAB' },
+                { top_legend = 'ET', scan_code = 'KC_ENTER' },
+            ],
+        ]
+    ],
+   [
+        [
+
+            [
+                { top_legend = 'F1', scan_code = 'KC_F1' },
+                { top_legend = 'F2', scan_code = 'KC_F2' },
+                { top_legend = 'F3', scan_code = 'KC_F3' },
+                { top_legend = 'F4', scan_code = 'KC_F4' },
+                { top_legend = 'F5', scan_code = 'KC_F5' },
+            ],
+            [
+                { top_legend = 'F11', scan_code = 'KC_F11' },
+                { top_legend = 'F12', scan_code = 'KC_F12' },
+                { top_legend = '~', bottom_legend = '`', scan_code = 'KC_GRAVE' },
+                { top_legend = '"', bottom_legend = "'", scan_code = 'KC_APOSTROPHE' },
+
+            ],
+            [
+                { top_legend = '!', bottom_legend = '1', scan_code = 'KC_1' },
+                { top_legend = '@', bottom_legend = '2', scan_code = 'KC_2' },
+                { top_legend = '#', bottom_legend = '3', scan_code = 'KC_3' },
+                { top_legend = '$', bottom_legend = '4', scan_code = 'KC_4' },
+                { top_legend = '%', bottom_legend = '5', scan_code = 'KC_5' },
+            ],
+            [
+                { top_legend = 'SHF', scan_code = 'KC_LEFTSHIFT' },
+                { top_legend = '<C>', scan_code = 'KC_LEFTCTRL' },
+                { top_legend = '<M>', scan_code = 'KC_LEFTMETA' },
+                { top_legend = '<A>', scan_code = 'KC_LEFTALT' },
+                { top_legend = '< >', scan_code = 'KC_SPACE' },
+            ],
+        ],
+        [
+            [
+                { top_legend = 'F6', scan_code = 'KC_F6' },
+                { top_legend = 'F7', scan_code = 'KC_F7' },
+                { top_legend = 'F8', scan_code = 'KC_F8' },
+                { top_legend = 'F9', scan_code = 'KC_F9' },
+                { top_legend = 'F10', scan_code = 'KC_F10' },
+            ],
+            [
+                { top_legend = '{', bottom_legend = '[', scan_code = 'KC_LEFTBRACE' },
+                { top_legend = '}', bottom_legend = ']', scan_code = 'KC_RIGHTBRACE' },
+                { top_legend = '|', bottom_legend = '\', scan_code = 'KC_BACKSLASH' },
+                { top_legend = '_', bottom_legend = '-', scan_code = 'KC_MINUS' },
+                { top_legend = '+', bottom_legend = '=', scan_code = 'KC_EQUAL' },
+                # { top_legend = 'Backspace', scan_code = 14 },
+            ],
+            [
+                { top_legend = '^', bottom_legend = '6', scan_code = 'KC_6' },
+                { top_legend = '&', bottom_legend = '7', scan_code = 'KC_7' },
+                { top_legend = '*', bottom_legend = '8', scan_code = 'KC_8' },
+                { top_legend = '(', bottom_legend = '9', scan_code = 'KC_9' },
+               { top_legend = ')', bottom_legend = '0', scan_code = 'KC_0' },
+            ],
+            [
+                { top_legend = 'LNO', scan_code = { LAYER = 0}},
+                { top_legend = 'XXX', scan_code = 'CLOSE'},
+                { top_legend = 'TB', scan_code = 'KC_TAB' },
+                { top_legend = 'ET', scan_code = 'KC_ENTER' },
+            ],
+        ]
+    ]
+]
