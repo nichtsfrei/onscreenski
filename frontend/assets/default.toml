@@ -69,11 +69,10 @@ layer = [
         [
 
             [
-                { top_legend = '␈E', scan_code = { LAYER = 0 } },
+                { top_legend = 'ESC', scan_code = 'KC_ESC' },
             ],
             [
-                { top_legend = 'NUM', scan_code = { LAYER = 2 } },
-
+                { top_legend = '␈E', scan_code = { LAYER = 0 } },
             ],
             [
                 { top_legend = 'NUM', scan_code = { LAYER = 2 } },
