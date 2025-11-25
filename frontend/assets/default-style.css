@@ -2,8 +2,6 @@ window {
     background-color: rgba(0, 0, 0, 0.0);
 }
 
-/* 239, 231, 218 */
-
 button {
     background-color: rgba(220, 220, 220, 0.85);
     background-image: none;
@@ -14,6 +12,10 @@ button {
 
 .layer1 {
     background-color: rgba(229, 242, 242, 0.85);
+}
+
+.layer2 {
+    background-color: rgba(249, 234, 174, 0.85);
 }
 
 .toggled {
