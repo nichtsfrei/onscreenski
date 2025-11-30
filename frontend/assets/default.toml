@@ -27,11 +27,11 @@ layer = [
                 { top_legend = 'B', scan_code = 'KC_B' },
             ],
             [
-                { top_legend = '␏', scan_code = 'KC_LEFTSHIFT' },
-                { top_legend = '<C>', scan_code = 'KC_LEFTCTRL' },
-                { top_legend = '<M>', scan_code = 'KC_LEFTMETA' },
-                { top_legend = '<A>', scan_code = 'KC_LEFTALT' },
                 { top_legend = '␠', scan_code = 'KC_SPACE' },
+                { top_legend = '␋', scan_code = 'KC_TAB' },
+                { top_legend = 'DEL', scan_code = 'KC_DELETE' },
+                { top_legend = '␏', scan_code = 'KC_LEFTSHIFT' },
+                { top_legend = '<A>', scan_code = 'KC_LEFTALT' },
             ],
         ],
         [
@@ -57,9 +57,9 @@ layer = [
                 { top_legend = '?', bottom_legend = '/', scan_code = 'KC_SLASH' },
             ],
             [
-                { top_legend = '⌨', scan_code = 'CLOSE'},
                 { top_legend = '𓏠', scan_code = { LAYER = 1}},
-                { top_legend = '␋', scan_code = 'KC_TAB' },
+                { top_legend = '<M>', scan_code = 'KC_LEFTMETA' },
+                { top_legend = '<C>', scan_code = 'KC_LEFTCTRL' },
                 { top_legend = '␈', scan_code = 'KC_BACKSPACE' },
                 { top_legend = '⎆', scan_code = 'KC_ENTER' },
             ],
@@ -70,19 +70,21 @@ layer = [
 
             [
                 { top_legend = 'ESC', scan_code = 'KC_ESC' },
+                { top_legend = '⌨', scan_code = 'CLOSE'},
             ],
             [
                 { top_legend = '␈E', scan_code = { LAYER = 0 } },
             ],
             [
                 { top_legend = 'NUM', scan_code = { LAYER = 2 } },
+                { top_legend = 'HDN', scan_code = { LAYER = 3 } },
             ],
             [
-                { top_legend = '␏', scan_code = 'KC_LEFTSHIFT' },
-                { top_legend = '<C>', scan_code = 'KC_LEFTCTRL' },
-                { top_legend = '<M>', scan_code = 'KC_LEFTMETA' },
-                { top_legend = '<A>', scan_code = 'KC_LEFTALT' },
                 { top_legend = '␠', scan_code = 'KC_SPACE' },
+                { top_legend = '␋', scan_code = 'KC_TAB' },
+                { top_legend = 'DEL', scan_code = 'KC_DELETE' },
+                { top_legend = '␏', scan_code = 'KC_LEFTSHIFT' },
+                { top_legend = '<A>', scan_code = 'KC_LEFTALT' },
             ],
         ],
         [
@@ -103,10 +105,11 @@ layer = [
             [
                 { top_legend = '㿧', bottom_legend = 'PRV', scan_code = 'KC_PREVIOUSSONG' },
             ],
+
             [
-                { top_legend = '⌨', scan_code = 'CLOSE'},
-                { top_legend = '𓏠', scan_code = { LAYER = 0}},
-                { top_legend = '␋', scan_code = 'KC_TAB' },
+                { top_legend = '𓏠', scan_code = { LAYER = 1}},
+                { top_legend = '<M>', scan_code = 'KC_LEFTMETA' },
+                { top_legend = '<C>', scan_code = 'KC_LEFTCTRL' },
                 { top_legend = '␈', scan_code = 'KC_BACKSPACE' },
                 { top_legend = '⎆', scan_code = 'KC_ENTER' },
             ],
@@ -136,12 +139,13 @@ layer = [
                 { top_legend = '$', bottom_legend = '4', scan_code = 'KC_4' },
                 { top_legend = '%', bottom_legend = '5', scan_code = 'KC_5' },
             ],
+
             [
-                { top_legend = '␏', scan_code = 'KC_LEFTSHIFT' },
-                { top_legend = '<C>', scan_code = 'KC_LEFTCTRL' },
-                { top_legend = '<M>', scan_code = 'KC_LEFTMETA' },
-                { top_legend = '<A>', scan_code = 'KC_LEFTALT' },
                 { top_legend = '␠', scan_code = 'KC_SPACE' },
+                { top_legend = '␋', scan_code = 'KC_TAB' },
+                { top_legend = 'DEL', scan_code = 'KC_DELETE' },
+                { top_legend = '␏', scan_code = 'KC_LEFTSHIFT' },
+                { top_legend = '<A>', scan_code = 'KC_LEFTALT' },
             ],
         ],
         [
@@ -167,13 +171,36 @@ layer = [
                 { top_legend = '(', bottom_legend = '9', scan_code = 'KC_9' },
                { top_legend = ')', bottom_legend = '0', scan_code = 'KC_0' },
             ],
+
             [
-                { top_legend = '⌨', scan_code = 'CLOSE'},
-                { top_legend = '𓏠', scan_code = { LAYER = 0}},
-                { top_legend = '␋', scan_code = 'KC_TAB' },
+                { top_legend = '𓏠', scan_code = { LAYER = 1}},
+                { top_legend = '<M>', scan_code = 'KC_LEFTMETA' },
+                { top_legend = '<C>', scan_code = 'KC_LEFTCTRL' },
                 { top_legend = '␈', scan_code = 'KC_BACKSPACE' },
                 { top_legend = '⎆', scan_code = 'KC_ENTER' },
             ],
+        ],
+
+    ],
+[
+        [
+            [
+                { top_legend = ' ', scan_code = { LAYER = 0 } },
+            ],
+
+            [
+                { top_legend = ' ', scan_code = { LAYER = 0 } },
+            ],
+            [
+                { top_legend = ' ', scan_code = { LAYER = 0 } },
+            ],
+            [
+                { top_legend = ' ', scan_code = { LAYER = 0 } },
+            ],
+        ],
+        [
+            
         ]
-    ]
+    ],
+
 ]
